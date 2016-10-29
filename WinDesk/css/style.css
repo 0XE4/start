@@ -1,0 +1,74 @@
+body { 
+		background-color:#eceff1;
+		color:#ffffff;
+	}
+	
+	#Title {
+		font-family: 'Malgun Gothic';
+		text-align: center;
+		color: #333;
+		margin-top: 75px;
+	}
+	
+	#searchbox{
+
+		width: 500;
+		height: 4%;
+		border: none;
+		border-radius: 2px;
+		outline: none;
+		padding-left: 15px;
+		text-align: left;
+		background-color: white;
+		color: #333;
+		font-size: 15px;
+		font-family: 'Malgun Gothic', sans-serif;
+		display: block;
+		margin: auto;
+		margin-top: 110px;
+	}
+	
+    #stripe {
+        width:100%;
+		vertical-align:middle;
+    }
+
+	#mainframe {
+		text-align: center;
+		position: absolute;
+		top: 25%;
+		left:24%;
+		right:11%;
+	}
+	
+	#linkblock {
+		width:30%;
+		height:180px;
+		margin:30px 30px 40px 25px;
+		padding:0px 1px 0px 67px;
+		text-align: left;
+		background-position:top 0px left 0px;; 
+		background-repeat:no-repeat;
+		font-family: 'Malgun Gothic';
+		font-size:100%;
+		display: inline-block;
+		vertical-align: top;
+		border-left: 3px solid rgba(96,125,139,0.65);
+    }
+	
+	ul { 
+		list-style-type: none;
+		padding-left: 3px;
+	} 
+	
+	a:link { text-decoration:none; font-weight:normal; color:#333; }
+	a:visited { text-decoration:none; font-weight:normal; color:#333; }
+	a:hover { text-decoration:none; font-weight:normal; color:#797979; }
+	a:active { text-decoration:none; font-weight:normal; color:#333; }
+	a:focus { text-decoration:none; font-weight:normal; color:#333; }
+	
+	#footer a:link { text-decoration:none; font-weight:normal; color:#101010; }
+	#footer a:visited { text-decoration:none; font-weight:normal; color:#101010; }
+	#footer a:hover { text-decoration:none; font-weight:normal; color:#101010; }
+	#footer a:active { text-decoration:none; font-weight:normal; color:#101010; }
+	#footer a:focus { text-decoration:none; font-weight:normal; color:#101010; }
