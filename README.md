@@ -1,8 +1,9 @@
 # start
-Startpages for my individual devices  
+Startpage for my individual devices  
 <br />
-### [WinDesk](https://0xe4.github.io/start/WinDesk)
+### [Faded](https://0xe4.github.io/start/Faded)
 _October 29 2016_  
-Used on my main desktop. Influenced by a submission to the [Emporium](https://startpages.github.io "The Startpage Emporium").  
+Uses CSS media rules to change the feel of the page on each device I use it on.  
+Influenced by a submission to the [Emporium](https://startpages.github.io "The Startpage Emporium").  
 
-![Preview Image](https://github.com/0XE4/start/raw/gh-pages/WinDesk/prv.png "WinDesk")
+![Preview Image](https://github.com/0XE4/start/raw/gh-pages/Faded/prv.png "WinDesk")
