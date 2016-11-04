@@ -23,7 +23,10 @@ body {font-family:'Malgun Gothic';font-size:100%;}
 		display:block;
 		margin:auto;
 		margin-top:110px;
+		opacity: 0.75;
 	}
+
+	#searchbox:hover {opacity: 1;}
 
 	#stripe {width:100%;vertical-align:middle;}
 
