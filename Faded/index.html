@@ -4,6 +4,8 @@
 	<meta name="robots" content="noindex, nofollow">
 	<link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='js/jquery.min.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<title>Startpage</title>
 </head>
 <body>
@@ -11,6 +13,9 @@
 	<form method="get" action="http://www.google.com/search">
 		<input id="searchbox" input name="q" placeholder="Search" type="text" class="form-control" autocomplete="true"></input>
 	</form>
+<div class="rss-widget">
+	<ul></ul>
+</div>
 <div id=mainframe>
 	<div id=linkblock style="background-image:url(img/mountain.jpg);">
 		<ul>
@@ -52,11 +57,12 @@
 			<li><a href="https://interfacelift.com/wallpaper/downloads/date/any">InterfaceLIFT</a></li>
 			<li><a href="http://pastebin.com">Pastebin</a></li>
 			<li><a href="http://192.168.0.29/admin/index.php">Pi-hole</a></li>
-			<li><a href="https://pomf.cat">Pomf Cat</a></li>
 			<li><a href="https://rarbgunblock.com/index8.php">RARBG</a></li>
+			<li><a href="http://192.168.220.139:9001/">Shout</a></li>
 		</ul>
 	</div>
 </div>
 </div>
+<script src='js/rss.js'></script>
 </body>
 </html>

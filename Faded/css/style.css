@@ -1,7 +1,7 @@
 /* Universal */
 html {background: url(../img/bg.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 
-body {font-family:'Malgun Gothic';font-size:100%;}
+body {font-family:'Malgun Gothic';font-size:100%;color:#333;}
 
 /* Main Desktop (1920x1080) */
 @media  screen and (max-width: 1920px) {
@@ -17,7 +17,6 @@ body {font-family:'Malgun Gothic';font-size:100%;}
 		padding-left:15px;
 		text-align:left;
 		background-color:#fff;
-		color:#333;
 		font-size:15px;
 		font-family:'Malgun Gothic',sans-serif;
 		display:block;
@@ -29,6 +28,9 @@ body {font-family:'Malgun Gothic';font-size:100%;}
 	#searchbox:hover {opacity: 1;}
 
 	#stripe {width:100%;vertical-align:middle;}
+
+	.rss-widget{text-align:center;padding-top: 18px;opacity: 0.7;}
+	.blog-item:nth-child(1){display: none;}
 
 	#mainframe {text-align:center;position:absolute;top:25%;left:25%;right:11%;}
 
@@ -47,7 +49,7 @@ body {font-family:'Malgun Gothic';font-size:100%;}
 
 	ul {list-style-type:none;padding-left:3px}
 
-	a:link,a:visited,a:active,a:focus {text-decoration:none;font-weight:400;color:#333;}
+	a:link,a:visited,a:active,a:focus {text-decoration:none;font-weight:400;color:inherit;}
 
 	a:hover {color:#797979}
 
@@ -56,7 +58,7 @@ body {font-family:'Malgun Gothic';font-size:100%;}
 /* Macbook Air 13" (1440x900) */
 @media  screen and (max-width: 1440px) {
 
-	body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
+	body{font-family: 'Open Sans', sans-serif;}
 
 	#searchbox {
 		margin-top: 55px;
