@@ -1,6 +1,6 @@
 function RSSWidget(a) {
     rss = this, rss.FEED_URL = a, rss.JSON = new Array, rss.widgetHolder = $(".rss-widget ul"), rss.storiesLimit = 2, $.ajax({
-        url: "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=" + encodeURIComponent(rss.FEED_URL),
+        url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=" + encodeURIComponent(rss.FEED_URL),
         dataType: "json",
         success: function(a) {
             if (a.responseData.feed && a.responseData.feed.entries) {
