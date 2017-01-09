@@ -60,24 +60,14 @@ body {font-family:'Malgun Gothic';font-size:100%;color:#333;}
 
 	body{font-family: 'Open Sans', sans-serif;}
 
-	#searchbox {
-		margin-top: 55px;
-		height:32px;
-		font-weight: 300;
-	}
+	#searchbox {margin-top: 55px;height:32px;font-weight: 300;}
 
-	#mainframe {
-		top:19%;
-		left:26%;
-	}
+	.rss-widget{padding-top: 16px;opacity: 0.7;}
 
-	#linkblock {
-		width:33%;
-		line-height: 21px;
-	}
+	#mainframe {top:24%;left:26%;}
 
-	a:link,a:visited,a:active,a:focus {
-		font-weight:300;
-	}
+	#linkblock {width:33%;line-height: 21px;}
+
+	a:link,a:visited,a:active,a:focus {font-weight:300;}
 
 }
